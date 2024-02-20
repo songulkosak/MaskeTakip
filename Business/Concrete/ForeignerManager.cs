@@ -8,26 +8,21 @@ using System.Threading.Tasks;
 
 namespace Business.Concrete
 {
-    //Çıplak class kalmasın
-    public class PersonManager : IApplicantService
+    public class ForeignerManager : IApplicantService
     {
-        //encapsulation
         public void ApplyForMask(Person person)
         {
-
-        }
-        public List<Person> GetList()
-        {
-            return null;
+            throw new NotImplementedException();
         }
 
         public bool CheckPerson(Person person)
         {
-
-            //mernis kontrolü yapılacak
-            return true;
-
+            throw new NotImplementedException();
         }
 
+        public List<Person> GetList()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
