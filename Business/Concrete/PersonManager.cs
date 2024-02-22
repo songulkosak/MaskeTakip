@@ -23,8 +23,7 @@ namespace Business.Concrete
 
         public bool CheckPerson(Person person)
         {
-
-            //mernis kontrolü yapılacak
+            //KPSPublicSoapClient client = new KPSPublicSoapClient(KPSPublicSoapClient.EndpointConfiguration.KPSPublicSoap);
             return true;
 
         }

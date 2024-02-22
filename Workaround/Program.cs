@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Workaround
 {
-    internal class Program
+    class Program
     {
+
         static void Main(string[] args)
         {
             //Degiskenler();
@@ -16,7 +17,6 @@ namespace Workaround
 
             SelamVer(isim:"Engin");
             SelamVer(isim:"Ahmet");
-            SelamVer(isim:"Ayşe");
             SelamVer();
 
             int sonuc = Topla(3,5);
@@ -51,6 +51,13 @@ namespace Workaround
             sehirler1[0] = "Adana";
             Console.WriteLine(sehirler2[0]);
 
+            //Person person1=new Person();
+            //person1.FirstName = "Murat";
+
+            //Person person2 = new Person();
+            //person2.FirstName = "Murat";
+
+
             foreach (string sehir in sehirler1)
             {
                 Console.WriteLine(sehir);
@@ -64,8 +71,10 @@ namespace Workaround
                 Console.WriteLine(sehir);
             }
 
+            //PttManager pttManager = new PttManager(new ForeignerManager());
+            //pttManager.GiveMask(person1);
 
-            Console.ReadKey();
+            Console.ReadLine();
         }
 
         //methot 
